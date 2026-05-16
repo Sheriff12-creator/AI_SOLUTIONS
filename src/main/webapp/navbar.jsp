@@ -13,15 +13,23 @@
 
     <div class="nav-links">
 
-        <a href="/ai-solutions/index.jsp">Home</a>
-        <a href="/ai-solutions/about.jsp">About</a>
-        <a href="/ai-solutions/services">Services</a>
-        <a href="/ai-solutions/reviews.jsp">Reviews</a>
-        <a href="/ai-solutions/articles.jsp">Articles</a>
-        <a href="/ai-solutions/events.jsp">Events</a>
-        <a href="/ai-solutions/projects">Projects</a>
-        <a href="/ai-solutions/contact.jsp">Contact</a>
-        <a href="admin/login.jsp">Admin</a>
+        <a href="${pageContext.request.contextPath}/index.jsp">Home</a>
+
+        <a href="${pageContext.request.contextPath}/about.jsp">About</a>
+
+        <a href="${pageContext.request.contextPath}/services">Services</a>
+
+        <a href="${pageContext.request.contextPath}/reviews.jsp">Reviews</a>
+
+        <a href="${pageContext.request.contextPath}/articles.jsp">Articles</a>
+
+        <a href="${pageContext.request.contextPath}/events.jsp">Events</a>
+
+        <a href="${pageContext.request.contextPath}/projects">Projects</a>
+
+        <a href="${pageContext.request.contextPath}/contact.jsp">Contact</a>
+
+        <a href="${pageContext.request.contextPath}/admin/login.jsp">Admin</a>
 
     </div>
 
