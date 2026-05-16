@@ -99,7 +99,7 @@
             that accelerate digital transformation across industries.
         </p>
 
-        <a href="/ai-solutions/services"
+        <a href="/services"
            class="primary-btn">
 
             Explore Solutions
