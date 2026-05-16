@@ -99,7 +99,7 @@
             that accelerate digital transformation across industries.
         </p>
 
-        <a href="/services"
+        <a href="${pageContext.request.contextPath}/services"
            class="primary-btn">
 
             Explore Solutions

@@ -13,15 +13,6 @@
     <servlet-name>SubmitReviewServlet</servlet-name>
     <url-pattern>/SubmitReviewServlet</url-pattern>
   </servlet-mapping>
-  <servlet>
-    <servlet-name>ServiceServlet</servlet-name>
-    <servlet-class>controller.ServiceServlet</servlet-class>
-  </servlet>
-
-  <servlet-mapping>
-    <servlet-name>ServiceServlet</servlet-name>
-    <url-pattern>/services</url-pattern>
-  </servlet-mapping>
 
   <session-config>
     <session-timeout>15</session-timeout>
