@@ -26,19 +26,64 @@
 
 <!-- NAVBAR -->
 <nav class="navbar">
-    <div class="logo">AI-Solutions</div>
+
+    <div class="logo">
+        AI-Solutions
+    </div>
 
     <ul class="nav-links">
-        <li><a href="index.jsp">Home</a></li>
-        <li><a href="about.jsp">About</a></li>
-        <li><a href="services.jsp">Services</a></li>
-        <li><a href="projects.jsp">Projects</a></li>
-        <li><a href="articles.jsp">Articles</a></li>
-        <li><a href="events.jsp">Events</a></li>
-        <li><a href="contact.jsp">Contact</a></li>
-    </ul>
-</nav>
 
+        <li>
+            <a href="${pageContext.request.contextPath}/index.jsp">
+                Home
+            </a>
+        </li>
+
+        <li>
+            <a href="${pageContext.request.contextPath}/about.jsp">
+                About
+            </a>
+        </li>
+
+        <li>
+            <a href="${pageContext.request.contextPath}/services">
+                Services
+            </a>
+        </li>
+
+        <li>
+            <a href="${pageContext.request.contextPath}/projects">
+                Projects
+            </a>
+        </li>
+
+        <li>
+            <a href="${pageContext.request.contextPath}/articles.jsp">
+                Articles
+            </a>
+        </li>
+
+        <li>
+            <a href="${pageContext.request.contextPath}/events.jsp">
+                Events
+            </a>
+        </li>
+
+        <li>
+            <a href="${pageContext.request.contextPath}/reviews.jsp">
+                Reviews
+            </a>
+        </li>
+
+        <li>
+            <a href="${pageContext.request.contextPath}/contact.jsp">
+                Contact
+            </a>
+        </li>
+
+    </ul>
+
+</nav>
 <!-- HERO -->
 <section class="hero">
 
